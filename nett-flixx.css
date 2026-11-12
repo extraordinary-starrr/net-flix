@@ -2,12 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* width: auto; */
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .background {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8)), url(../Images/NG-en-20261026-TRIFECTA-perspective_942268ee-8390-4a7d-8b67-69257fc9fdf3_large.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8)), url(./images/NG-en-20261026-TRIFECTA-perspective_942268ee-8390-4a7d-8b67-69257fc9fdf3_large.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -285,6 +286,7 @@
     position: absolute;
     bottom: 20px;
     right: 20px;
+    width: 50px;
     /* font-size: 48px; */
 }
 
@@ -328,7 +330,7 @@
 }
 
 .mail2 {
-    width: 800px;
+    width: 500px;
     border-radius: 5px;
     height: 70px;
     border: 2px solid rgb(217, 215, 206, 0.13);
